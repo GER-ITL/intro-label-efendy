@@ -1,0 +1,26 @@
+.footer {
+	padding: 100px;
+	ul {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		li {
+			list-style-type: none;
+		}
+	}
+	background-color: rgb(53, 53, 53);
+	a {
+		color: #e6e6fa;
+		text-decoration: none;
+		font-size: 24px;
+	}
+}
+@media (max-width: 850px) {
+	.footer {
+		padding: 10px 20px;
+
+		ul {
+			flex-direction: column;
+		}
+	}
+}

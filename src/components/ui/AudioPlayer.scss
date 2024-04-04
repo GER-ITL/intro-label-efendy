@@ -1,0 +1,25 @@
+.musicCover {
+	border-radius: 10%;
+}
+
+.playButton {
+	background: none;
+	border: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.timeline {
+	width: 80%;
+	background-color: #e6e6fa;
+}
+
+input[type='range'] {
+	background-color: #e6e6fa;
+}
+
+@media (max-width: 900px) {
+	.component {
+		width: 50%;
+	}
+}
